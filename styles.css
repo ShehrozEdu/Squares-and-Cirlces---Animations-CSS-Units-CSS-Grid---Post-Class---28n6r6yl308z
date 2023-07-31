@@ -1,21 +1,28 @@
+/* styles.css */
 
-
+/* Outer Square */
 .outer-square {
   width: 600px;
   height: 600px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px; 
+  grid-template-rows: repeat(3, 1fr);
 }
 
-.inner-square {
-  background-color: #ff5722; 
-  height: 100%;
-}
-
+/* Inner Square and Circle */
+.inner-square,
 .circle {
-  background-color: #03a9f4; 
-  height: 100%;
-  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
 
+/* Inner Square */
+.inner-square {
+  background-color: lightblue;
+}
+
+/* Circle */
+.circle {
+  background-color: lightgreen;
+  border-radius: 50%;
 }
