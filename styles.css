@@ -1,6 +1,4 @@
-/* styles.css */
-
-/* Outer Square */
+/* Apply styles to the outer square */
 .outer-square {
   width: 600px;
   height: 600px;
@@ -9,20 +7,25 @@
   grid-template-rows: repeat(3, 1fr);
 }
 
-/* Inner Square and Circle */
-.inner-square,
-.circle {
-  box-sizing: border-box;
-  padding: 10px;
+/* Apply styles to the inner elements */
+.inner-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 
-/* Inner Square */
-.inner-square {
-  background-color: lightblue;
+/* Apply styles to the square inner elements */
+.square {
+  width: calc(33.33% - 20px);
+  height: calc(33.33% - 20px);
+  background-color: #4287f5;
 }
 
-/* Circle */
+/* Apply styles to the circle inner elements */
 .circle {
-  background-color: lightgreen;
+  width: calc(33.33% - 20px);
+  height: calc(33.33% - 20px);
+  background-color: #f542a5;
   border-radius: 50%;
 }
