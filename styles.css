@@ -1,28 +1,25 @@
-/* styles.css */
-
-/* Outer Square */
 .outer-square {
   width: 600px;
+
   height: 600px;
+
   display: grid;
+
   grid-template-columns: repeat(3, 1fr);
+
   grid-template-rows: repeat(3, 1fr);
 }
 
-/* Inner Square and Circle */
-.inner-square,
-.circle {
-  box-sizing: border-box;
-  margin: 10px;
-}
-
-/* Inner Square */
 .inner-square {
-  background-color: lightblue;
+  margin: 10px;
+
+  background-color: green;
 }
 
-/* Circle */
 .circle {
-  background-color: lightgreen;
-  border-radius: 50%;
+  margin: 10px;
+
+  background-color: blue;
+
+  border-radius: 100%;
 }
